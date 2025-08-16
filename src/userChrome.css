@@ -1,4 +1,5 @@
 @media (prefers-color-scheme: dark) {
+  /* Defining some colors */
   :root {
     --zen-colors-primary: #434c5e !important;
     --zen-primary-color: #81a1c1 !important;
@@ -27,6 +28,16 @@
   #permissions-granted-icon {
     color: #2e3440 !important;
   }
+  
+  /* For borderless compactmode */
+  [zen-compact-mode="true"] {
+    --zen-element-separation: 0px !important;
+  }
+
+  [zen-compact-mode="false"] {
+    --zen-element-separation: 0px !important;
+  }
+
 
   .sidebar-placesTree,
   #zen-workspaces-button,
@@ -38,6 +49,10 @@
   /* Style the url view bar */
   .urlbarView-url {
     color: #81a1c1 !important;
+  }
+
+  #urlbar .urlbarView-results {
+    display: none !important;
   }
 
   #zenEditBookmarkPanelFaviconContainer {
@@ -55,12 +70,12 @@
   }
 
   toolbar
-    .toolbarbutton-1:not([disabled]):is([open], [checked])
-    > :is(
-      .toolbarbutton-icon,
-      .toolbarbutton-text,
-      .toolbarbutton-badge-stack
-    ) {
+  .toolbarbutton-1:not([disabled]):is([open], [checked])
+  > :is(
+  .toolbarbutton-icon,
+  .toolbarbutton-text,
+  .toolbarbutton-badge-stack
+  ) {
     fill: #2e3440 !important;
   }
   tooltip,
