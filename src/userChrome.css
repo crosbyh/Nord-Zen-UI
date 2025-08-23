@@ -24,7 +24,49 @@
     --zen-main-browser-background: #2e3440 !important;
     --toolbox-bgcolor-inactive: #2e3440 !important;
   }
+  
+  /*Workspace editor*/
+  
+  #context_zenEditWorkspace:hover,
+    #context_zenEditWorkspaceIcon:hover,
+      #context_zenChangeWorkspaceTheme:hover,
+        #context_zenWorkspacesOpenInContainerTab:hover,
+          #context_zenReorderWorkspaces:hover,
+            [data-l10n-id="zen-panel-ui-workspaces-create"]:hover,
+              #context_zenDeleteWorkspace:hover,
+                .zen-workspace-context-menu-item:hover{
+    background-color: #434c5e !important;
+  }
 
+  #context_zenEditWorkspace,
+    #context_zenEditWorkspaceIcon,
+      #context_zenChangeWorkspaceTheme,
+        #context_zenWorkspacesOpenInContainerTab,
+          #context_zenReorderWorkspaces,
+            [data-l10n-id="zen-panel-ui-workspaces-create"],
+              #context_zenDeleteWorkspace,
+                .zen-workspace-context-menu-item{
+    background-color: #3B4252 !important;
+  }
+  
+  [data-l10n-id="user-context-none"]:hover,
+    [data-l10n-id="user-context-personal"]:hover,
+      [data-l10n-id="user-context-work"]:hover,
+        [data-l10n-id="user-context-banking"]:hover,
+          [data-l10n-id="user-context-shopping"]:hover {
+    background-color: #434c5e !important;
+  }
+
+  [data-l10n-id="user-context-none"],
+    [data-l10n-id="user-context-personal"],
+      [data-l10n-id="user-context-work"],
+        [data-l10n-id="user-context-banking"],
+          [data-l10n-id="user-context-shopping"]{
+    background-color: #3B4252 !important;
+  }
+
+  
+  
   #permissions-granted-icon {
     color: #2e3440 !important;
   }
