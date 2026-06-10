@@ -93,16 +93,16 @@
     color: #81a1c1 !important;
   }
 
-  #urlbar .urlbarView-results {
-    display: none !important;
-  }
-
   #zenEditBookmarkPanelFaviconContainer {
     background: #2e3440 !important;
   }
 
   #TabsToolbar,
   hbox#titlebar,
+  #titlebar,
+  #navigator-toolbox,
+  #nav-bar,
+  #zen-toolbar-background,
   #zen-appcontent-navbar-container {
     background-color: #2e3440 !important;
   }
